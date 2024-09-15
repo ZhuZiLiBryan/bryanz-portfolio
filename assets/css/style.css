@@ -1,0 +1,91 @@
+/* Custom styles */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.jumbotron {
+    background-color: #f8f9fa;
+    padding: 4rem 2rem;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.timeline-item {
+    margin-bottom: 2rem;
+}
+
+
+/* Header Section Styles */
+.header-section {
+    position: relative;
+    height: 50vh; /* Makes the header take full viewport height */
+    background: url('../images/IMG_6930.JPG') no-repeat center center/cover; /* Background image */
+    background-attachment: fixed; /* This enables the parallax effect */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff; /* Text color */
+    font-family: Garamond;
+}
+
+/* Overlay to darken the background image */
+.header-section .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent overlay */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+/* Ensure text is above the overlay */
+
+.header-section h1,
+.header-section p {
+    text-shadow: 1px 1px 2px black;
+}
+/* Larger and bolder text for header */
+.header-section h1 {
+    position: relative;
+    z-index: 2;
+    font-size: 4rem; /* Adjust for larger text */
+    font-weight: 700; /* Makes the text bold */
+    letter-spacing: 2px; /* Adds some spacing between letters */
+}
+
+.header-section p {
+    position: relative;
+    z-index: 2;
+    font-size: 1.5rem; /* Adjust to increase size of paragraph text */
+    font-weight: 600; /* Bold paragraph text */
+    margin-top: 1rem; /* Adds some spacing between title and subtitle */
+}
+
+.header-section a {
+    position: relative;
+    z-index: 2;
+    font-size: 1.2rem; /* Increase size of the button text */
+    font-weight: 600; /* Make button text bold */
+    margin-top: 2rem; /* Adds space above the button */
+    padding: 0.75rem 1.5rem; /* Adjust padding for a larger button */
+    border-radius: 0.5rem; /* Optional, for rounded button corners */
+}
+
+/* Target section headers */
+.text-center.mb-4 {
+    font-weight: bold;
+}
+
+.gpa,
+.education-date {
+    font-style: italic;
+}
