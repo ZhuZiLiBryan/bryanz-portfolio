@@ -18,6 +18,21 @@ footer {
     margin-bottom: 2rem;
 }
 
+.col-6 {
+    font-size: 1.2rem; 
+}
+
+.vertical-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.col-5.text-right {
+    font-weight: 700
+}
+
 
 /* Header Section Styles */
 .header-section {
@@ -88,4 +103,9 @@ footer {
 .gpa,
 .education-date {
     font-style: italic;
+}
+
+#top-left-name {
+    font-weight: 700;
+    font-family: Garamond;
 }
